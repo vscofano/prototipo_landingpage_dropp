@@ -1,0 +1,13 @@
+ideias: colocar um Gif de todas as fotos do goku
+girando no site
+
+>colocar efeito de brilho na sombra
+	animacao css trocando o tamanho e a intensidade da cor em tons de amarelo
+
+ideia:posso recriar cenasdo anime em html evender todos os bonecos da cena: o combo
+
+ideia pro raio do super sayajin: colocar varias imagens de raio com opacidade zero e fazer ela alternarem a opacidadem em um loop
+
+a pagina de quem somos nós fala do porque da loja e tudo isso é escrito em cima do goku com a geikidama na mão(A escrita vai em cima da geinkidama)
+
+fazer choquinho 

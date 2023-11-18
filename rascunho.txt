@@ -1,0 +1,137 @@
+html 
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <img id="goku" class="box" src="description_images__9-removebg-preview.png" alt="">
+
+    <img class="image raio_1" src="img_lp/raio_1.png" alt="">
+    <img class="image raio_2" src="img_lp/raio_2.png" alt="">
+    <img class="image raio_3" src="img_lp/raio_3.png" alt="">
+</body>
+</html>
+
+
+css
+
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#goku{
+    filter: drop-shadow(0 10px 20px rgb(224, 247, 168) );
+  
+}
+
+#titulo{
+    width: 50%;
+}
+
+.box {
+
+animation: shock 4.5s ease-in-out infinite;
+}
+
+/*Start animação flutuante*/
+@keyframes shock {
+0%, 100% {
+transform: translateY(0);
+}
+50% {
+transform: translateY(-20px);
+}
+}
+/*End animação flutuante*/
+.conteiner_raio{
+    text-align: center;
+}
+.image{
+    width: 25%;
+    opacity: 0;
+    animation-duration: 0.3s; /* Duração da animação em segundos */
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+   
+}
+
+.raio_1{
+    animation-name: fade1;
+    animation-delay: 3s;
+    position: relative;
+    right: 400px;
+    top: 130px;
+    animation-duration: 2;
+}
+.raio_2{
+    animation-name: fade2;
+    animation-delay: 2s;
+    position: relative;
+    right: 700px;
+    
+}
+.raio_3{
+    animation-name: fade3;
+    animation-delay: 2s;
+    position: relative;
+    right: 930px;
+    bottom: 200px;
+ 
+}
+/*Start animação raio*/
+@keyframes fade1 {
+    0% {
+        opacity: 0;
+    }
+    33.33% {
+        opacity: 1;
+    }
+    66.66% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes fade2 {
+    0% {
+        opacity: 0;
+    }
+    33.33% {
+        opacity: 0;
+    }
+    66.66% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes fade3 {
+    0% {
+        opacity: 0;
+    }
+    33.33% {
+        opacity: 0;
+    }
+    66.66% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+/*End animação raio*/
