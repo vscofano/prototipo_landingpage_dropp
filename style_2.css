@@ -61,6 +61,12 @@
     .btn_action{
         font-size: 18px;
     }
+    #sliders_offer{
+width: 95%;
+    }
+    .miniatura_offer{
+padding: 3px;
+    }
      /*End offer mobile*/
     /*BTN*/
      .action{
@@ -290,21 +296,13 @@ a {
 #offer{
     padding: 25px;
 }
-.carousel-item img {
-    margin: 0 auto;
-    width: 100%;
-    }
-.thumbnail img {
-    max-height: 80px;
-    cursor: pointer;
-    margin-top: 5px;
-    }
-#imageCarousel {
-    transition-duration: 1s;
-    }
-.carousel-inner {
-    transition-timing-function: ease-in-out;
+
+.miniatura_offer{
+    padding: 3px;
         }
+.miniatura_offer:hover{
+    cursor: pointer;
+}
 
 .action{
     margin: auto;
