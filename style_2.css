@@ -2,26 +2,32 @@
  /*Start style Mobile (Celular)*/
 @media only screen and (max-width: 600px)  {
     /*Header mobile*/
+    .kakarotto{
+    width: 90%;
+    margin: auto;
+    position: relative;
+    top: 235px;
+   }
     #titulo{
-       width: 95%;
-       padding: 20px;
-       margin: auto;
-       position: relative;
-       top: 360px;
-       text-align: center;
+        text-align: center;
+        position: relative;
+        width: 90%;
+        margin: auto;
+      
     }
     #goku{
-        width: 100%;
+        width: 90%;
     }
     #logo_dbz{
-        margin-bottom: 15px;
-        margin-left: 50px;
+     margin-top: -85px;
+     padding-top: 30px;
     }
     .conteiner_raio{
        position: absolute;
     }
     #btn_header{
         text-align: center;
+        display: none;
     }
     /*End Header mobile*/
 
